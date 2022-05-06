@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.home_header {
+    background-color: #cce3de;
+    color: #a4c3b2;
+}
+
+nav {
+    background-color: #eaf4f4;
+
+}
+
+
+nav ul li {
+    display: inline-block;
+    padding: 10px;
+    margin: 5x;
+}
+
+.container {
+    margin: 3em;
+    position: relative;
+}
+
+main,
+aside {
+    position: absolute;
+    border-style: dashed;
+
+}
+
+main {
+    width: 60%;
+}
+
+aside {
+    width: 30%;
+    right: 0;
+}
+
+
+
+footer {
+    position: fixed;
+    text-align: center;
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+}
